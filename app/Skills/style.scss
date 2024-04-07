@@ -1,0 +1,103 @@
+.technicalskills{
+    color:darkgray;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+.skills h2{
+   font-weight: 400;
+   letter-spacing: 1px;
+   margin-top: 40px;
+   margin-bottom: 5px;
+   color:antiquewhite;
+   font-size: 16px;
+}
+.progressbar{
+     background:#959595;
+     width: 600px;
+     height: 10px;
+     border-radius: 5px;
+}
+.progressbar div{
+    height: 10px;
+    border-radius: 5px;
+    width:0%;
+}
+.progressbar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    background: white;
+    margin-top: -15px;
+    margin-right: -20px;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+     background: rgb(30, 53, 78);
+     animation: html 1s linear forwards;
+}
+.css{
+     background: rgb(30, 53, 78);
+     animation:css 1s linear forwards;
+}
+.java{
+     background: rgb(30, 53, 78);
+     animation:java 1s linear forwards;
+}
+.javascript{
+     background: rgb(30, 53, 78);
+     animation:javascript 1s linear forwards;
+}
+.python{
+     background: rgb(30, 53, 78);
+     animation: python 1s linear forwards;
+}
+.html span{
+    border: 1px solid rgb(30, 53, 78);
+}
+.css span{
+    border: 1px solid rgb(30, 53, 78);
+}
+.java span{
+    border: 1px solid rgb(30, 53, 78);
+}
+.javascript span{
+    border: 1px solid rgb(30, 53, 78);
+}
+.python span{
+    border: 1px solid rgb(30, 53, 78);
+}
+@keyframes html{
+    100%{
+        width:86%
+    }
+}
+@keyframes css{
+    100%{
+        width:86%
+    }
+}
+@keyframes java{
+    100%{
+        width:75%
+    }
+}
+@keyframes javascript{
+    100%{
+        width:55%
+    }
+}
+@keyframes python{
+    100%{
+        width:85%
+    }
+}

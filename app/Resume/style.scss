@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+.projects{
+   width:100%;
+}
+.projects .slide .portfolio{
+
+    inset: 0 0 0 0;
+    margin-left: 30%;
+
+}
+.buttons{
+    display: grid;
+}
+@media only screen and (max-width:600px){
+   .projects{
+    width: 80%;
+   }
+   .projects .slide .portfolio{
+    inset: 0 0 0 0;
+    margin-left: 20%;
+
+}
+}
