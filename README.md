@@ -7,3 +7,4 @@ This project showcases your skills, projects, resume, and contact information in
 
 - **Frontend:** [Next.js](https://nextjs.org/)
 - **Styling:** SCSS (Sass), CSS Modules
+-
