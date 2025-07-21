@@ -6,5 +6,5 @@ This project showcases your skills, projects, resume, and contact information in
 ## 🚀 Tech Stack
 
 - **Frontend:** [Next.js](https://nextjs.org/)
-- **Styling:** SCSS (Sass), CSS Modules
+- **Styling:** SCSS (Sass), CSS Module
 -
